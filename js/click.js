@@ -23,3 +23,106 @@ function updateDate(){
        document.getElementById('date').textContent = date;  
 }
 setInterval(updateDate)
+
+//  button -designs
+
+function myFunction1() {
+    document.getElementById("btn1").disabled = true;
+    document.getElementById("btn1").style.opacity='0.2'
+    let child = document.getElementById('title1')
+    let parent = document.getElementById('history')
+
+  let p = document.createElement('p')
+   p.innerHTML = `<p class=" text-black">You have complete the task Fix Mobile Button Issue </p>
+        
+   `
+   p.classList.add('bg-color')
+   p.style.marginTop='12px'
+   p.style.paddingInline = '12px'
+   parent.appendChild(p);
+         
+  }
+
+
+
+function myFunction2() {
+    document.getElementById("btn2").disabled = true;
+    document.getElementById("btn2").style.opacity='0.2'
+    let child = document.getElementById('title1')
+    let parent = document.getElementById('history')
+
+  let p = document.createElement('p')
+   p.innerHTML = `<p class=" text-black">You have complete the task Add Dark Mode at </p>
+        
+   `
+   p.classList.add('bg-color')
+   p.style.marginTop='12px'
+   p.style.paddingInline = '12px'
+   parent.appendChild(p)
+         
+  }
+
+  function myFunction3() {
+    document.getElementById("btn3").disabled = true;
+    document.getElementById("btn3").style.opacity='0.2'
+    let child = document.getElementById('title1')
+    let parent = document.getElementById('history')
+
+  let p = document.createElement('p')
+   p.innerHTML = `<p class=" text-black">You have complete the task Add Dark Mode at </p>
+        
+   `
+   p.classList.add('bg-color')
+   p.style.marginTop='12px'
+   p.style.paddingInline = '12px'
+   parent.appendChild(p)
+         
+  }
+  function myFunction4() {
+    document.getElementById("btn4").disabled = true;
+    document.getElementById("btn4").style.opacity='0.2'
+    let child = document.getElementById('title1')
+    let parent = document.getElementById('history')
+
+  let p = document.createElement('p')
+   p.innerHTML = `<p class=" text-black">You have complete the task Add Dark Mode at </p>
+        
+   `
+   p.classList.add('bg-color')
+   p.style.marginTop='12px'
+   p.style.paddingInline = '12px'
+   parent.appendChild(p)
+         
+  }
+  function myFunction5() {
+    document.getElementById("btn5").disabled = true;
+    document.getElementById("btn5").style.opacity='0.2'
+    let child = document.getElementById('title1')
+    let parent = document.getElementById('history')
+
+  let p = document.createElement('p')
+   p.innerHTML = `<p class=" text-black">You have complete the task Add Dark Mode at </p>
+        
+   `
+   p.classList.add('bg-color')
+   p.style.marginTop='12px'
+   p.style.paddingInline = '12px'
+   parent.appendChild(p)
+         
+  }
+  function myFunction6() {
+    document.getElementById("btn6").disabled = true;
+    document.getElementById("btn6").style.opacity='0.2'
+    let child = document.getElementById('title1')
+    let parent = document.getElementById('history')
+
+  let p = document.createElement('p')
+   p.innerHTML = `<p class=" text-black">You have complete the task Add Dark Mode at </p>
+        
+   `
+   p.classList.add('bg-color')
+   p.style.marginTop='12px'
+   p.style.paddingInline = '12px'
+   parent.appendChild(p)
+         
+  }
