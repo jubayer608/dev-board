@@ -9,6 +9,9 @@ document.getElementById('btn1').addEventListener('click',function(){
         let subs = convertedTask-1
         document.getElementById('task-complete').innerText=subs;
         document.getElementById('task-complete-number').innerText = sum;
+       if(sum>28){
+        alert('Congrats!!! You have completed all the current task')
+       }
 
 
 })
@@ -24,7 +27,9 @@ document.getElementById('btn2').addEventListener('click',function(){
         let subs = convertedTask-1
         document.getElementById('task-complete').innerText=subs;
         document.getElementById('task-complete-number').innerText = sum;
-
+        if(sum>28){
+          alert('Congrats!!! You have completed all the current task')
+         }
 
 })
 
@@ -38,7 +43,9 @@ document.getElementById('btn3').addEventListener('click',function(){
         let subs = convertedTask-1
         document.getElementById('task-complete').innerText=subs;
         document.getElementById('task-complete-number').innerText = sum;
-
+        if(sum>28){
+          alert('Congrats!!! You have completed all the current task')
+         }
 
 })
 
@@ -52,7 +59,9 @@ document.getElementById('btn4').addEventListener('click',function(){
         let subs = convertedTask-1
         document.getElementById('task-complete').innerText=subs;
         document.getElementById('task-complete-number').innerText = sum;
-
+        if(sum>28){
+          alert('Congrats!!! You have completed all the current task')
+         }
 
 })
 
@@ -66,7 +75,9 @@ document.getElementById('btn5').addEventListener('click',function(){
         let subs = convertedTask-1
         document.getElementById('task-complete').innerText=subs;
         document.getElementById('task-complete-number').innerText = sum;
-
+        if(sum>28){
+          alert('Congrats!!! You have completed all the current task')
+         }
 
 })
 
@@ -80,7 +91,8 @@ document.getElementById('btn6').addEventListener('click',function(){
         let subs = convertedTask-1
         document.getElementById('task-complete').innerText=subs;
         document.getElementById('task-complete-number').innerText = sum;
-
-
+        if(sum>28){
+          alert('Congrats!!! You have completed all the current task')
+         }
 })
 

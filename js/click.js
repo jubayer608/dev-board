@@ -17,12 +17,20 @@ function backgroundColor() {
 }
 document.getElementById("change-color").addEventListener("click", backgroundColor);
 
-// date-time
-function updateDate(){
-       let date = new Date().toLocaleDateString();
-       document.getElementById('date').textContent = date;  
+// challenge part mark
+function formatDate(dateString) {
+  const date = new Date(dateString);
+  
+  const formatter = new Intl.DateTimeFormat('en-US', {
+      weekday: 'short',
+      month: 'short',
+      day: '2-digit',
+      year: 'numeric'
+  });
+
+  return formatter.format(date).replace(',', '');
 }
-setInterval(updateDate)
+document.getElementById('date').textContent = formatDate(new Date())
 
 //  button -designs
 
@@ -30,96 +38,122 @@ function myFunction1() {
     document.getElementById("btn1").disabled = true;
     document.getElementById("btn1").style.opacity='0.2'
     let child = document.getElementById('title1')
+    let childName = child.innerText
     let parent = document.getElementById('history')
-
-  let p = document.createElement('p')
-   p.innerHTML = `<p class=" text-black">You have complete the task Fix Mobile Button Issue at 12:48:15 PM </p>
-      
-   `
+    let now = new Date();
+    let formattedTime = now.toLocaleString('en-us', {
+      hour:'2-digit',
+      minute:'2-digit',
+      second:'2-digit',
+      hour12: true
+    })
+   let p = document.createElement('p')
+   p.innerText = `You have complete the task ${childName}at ${formattedTime} `
    p.classList.add('bg-color')
    p.style.marginTop='12px'
    p.style.paddingInline = '12px'
-   parent.appendChild(p);
-         
+   parent.appendChild(p);      
   }
-
-
 
 function myFunction2() {
     document.getElementById("btn2").disabled = true;
     document.getElementById("btn2").style.opacity='0.2'
-    let child = document.getElementById('title1')
+    let child = document.getElementById('title2')
+    let childName = child.innerText
     let parent = document.getElementById('history')
-
-  let p = document.createElement('p')
-   p.innerHTML = `<p class=" text-black">You have complete the task Add Dark Mode at 12:48:15 PM </p>
-        
-   `
+    let now = new Date();
+    let formattedTime = now.toLocaleString('en-us', {
+      hour:'2-digit',
+      minute:'2-digit',
+      second:'2-digit',
+      hour12: true
+    })
+    let p = document.createElement('p')
+   p.innerText = `You have complete the task ${childName} at ${formattedTime} `
    p.classList.add('bg-color')
    p.style.marginTop='12px'
    p.style.paddingInline = '12px'
-   parent.appendChild(p)
-         
+   parent.appendChild(p)    
   }
 
   function myFunction3() {
     document.getElementById("btn3").disabled = true;
     document.getElementById("btn3").style.opacity='0.2'
-    let child = document.getElementById('title1')
+    let child = document.getElementById('title3')
+    let childName = child.innerText;
     let parent = document.getElementById('history')
-
-  let p = document.createElement('p')
-   p.innerHTML = `<p class=" text-black">You have complete the task Optimize Home page at 12:48:15 PM </p>
-        
-   `
+    let now = new Date();
+    let formattedTime = now.toLocaleString('en-us', {
+      hour:'2-digit',
+      minute:'2-digit',
+      second:'2-digit',
+      hour12: true
+    })
+   let p = document.createElement('p')
+   p.innerText = `You have complete the ${childName} at ${formattedTime}`
    p.classList.add('bg-color')
    p.style.marginTop='12px'
    p.style.paddingInline = '12px'
    parent.appendChild(p)
          
   }
+
   function myFunction4() {
     document.getElementById("btn4").disabled = true;
     document.getElementById("btn4").style.opacity='0.2'
-    let child = document.getElementById('title1')
+    let child = document.getElementById('title4')
+    let childName = child.innerText
     let parent = document.getElementById('history')
-
-  let p = document.createElement('p')
-   p.innerHTML = `<p class=" text-black">You have complete the task Add new emoji 🤲 at 12:48:15 PM </p>
-        
-   `
+    let now = new Date();
+    let formattedTime = now.toLocaleString('en-us', {
+      hour:'2-digit',
+      minute:'2-digit',
+      second:'2-digit',
+      hour12: true
+    })
+   let p = document.createElement('p')
+   p.innerText = `You have complete the task ${childName} at ${formattedTime} `
    p.classList.add('bg-color')
    p.style.marginTop='12px'
    p.style.paddingInline = '12px'
-   parent.appendChild(p)
-         
+   parent.appendChild(p)     
   }
+
   function myFunction5() {
     document.getElementById("btn5").disabled = true;
     document.getElementById("btn5").style.opacity='0.2'
-    let child = document.getElementById('title1')
+    let child = document.getElementById('title5')
+    let childName = child.innerText;
     let parent = document.getElementById('history')
-
-  let p = document.createElement('p')
-   p.innerHTML = `<p class=" text-black">You have complete the task Integrate OpenAI API at 12:48:15 PM </p>
-        
-   `
+    let now = new Date();
+    let formattedTime = now.toLocaleString('en-us', {
+      hour:'2-digit',
+      minute:'2-digit',
+      second:'2-digit',
+      hour12: true
+    })
+   let p = document.createElement('p')
+   p.innerText = `You have complete the task ${childName} at ${formattedTime} `
    p.classList.add('bg-color')
    p.style.marginTop='12px'
    p.style.paddingInline = '12px'
-   parent.appendChild(p)
-         
+   parent.appendChild(p)   
   }
   function myFunction6() {
     document.getElementById("btn6").disabled = true;
     document.getElementById("btn6").style.opacity='0.2'
-    let child = document.getElementById('title1')
+    let child = document.getElementById('title6')
+    let childName = child.innerText
     let parent = document.getElementById('history')
-
+    let now = new Date();
+    let formattedTime = now.toLocaleString('en-us', {
+      hour:'2-digit',
+      minute:'2-digit',
+      second:'2-digit',
+      hour12: true
+    })
   let p = document.createElement('p')
-   p.innerHTML = `<p class=" text-black">You have complete the task Improve Job searching at 12:48:15 PM </p>
-        
-   `
+   p.innerText = `You have complete the task ${childName} at ${formattedTime}`
    p.classList.add('bg-color')
    p.style.marginTop='12px'
    p.style.paddingInline = '12px'
