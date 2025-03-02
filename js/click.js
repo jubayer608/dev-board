@@ -33,8 +33,8 @@ function myFunction1() {
     let parent = document.getElementById('history')
 
   let p = document.createElement('p')
-   p.innerHTML = `<p class=" text-black">You have complete the task Fix Mobile Button Issue </p>
-        
+   p.innerHTML = `<p class=" text-black">You have complete the task Fix Mobile Button Issue at 12:48:15 PM </p>
+      
    `
    p.classList.add('bg-color')
    p.style.marginTop='12px'
@@ -52,7 +52,7 @@ function myFunction2() {
     let parent = document.getElementById('history')
 
   let p = document.createElement('p')
-   p.innerHTML = `<p class=" text-black">You have complete the task Add Dark Mode at </p>
+   p.innerHTML = `<p class=" text-black">You have complete the task Add Dark Mode at 12:48:15 PM </p>
         
    `
    p.classList.add('bg-color')
@@ -69,7 +69,7 @@ function myFunction2() {
     let parent = document.getElementById('history')
 
   let p = document.createElement('p')
-   p.innerHTML = `<p class=" text-black">You have complete the task Add Dark Mode at </p>
+   p.innerHTML = `<p class=" text-black">You have complete the task Optimize Home page at 12:48:15 PM </p>
         
    `
    p.classList.add('bg-color')
@@ -85,7 +85,7 @@ function myFunction2() {
     let parent = document.getElementById('history')
 
   let p = document.createElement('p')
-   p.innerHTML = `<p class=" text-black">You have complete the task Add Dark Mode at </p>
+   p.innerHTML = `<p class=" text-black">You have complete the task Add new emoji 🤲 at 12:48:15 PM </p>
         
    `
    p.classList.add('bg-color')
@@ -101,7 +101,7 @@ function myFunction2() {
     let parent = document.getElementById('history')
 
   let p = document.createElement('p')
-   p.innerHTML = `<p class=" text-black">You have complete the task Add Dark Mode at </p>
+   p.innerHTML = `<p class=" text-black">You have complete the task Integrate OpenAI API at 12:48:15 PM </p>
         
    `
    p.classList.add('bg-color')
@@ -117,7 +117,7 @@ function myFunction2() {
     let parent = document.getElementById('history')
 
   let p = document.createElement('p')
-   p.innerHTML = `<p class=" text-black">You have complete the task Add Dark Mode at </p>
+   p.innerHTML = `<p class=" text-black">You have complete the task Improve Job searching at 12:48:15 PM </p>
         
    `
    p.classList.add('bg-color')
